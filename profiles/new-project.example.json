@@ -1,0 +1,54 @@
+{
+  "project_key": "REPLACE_WITH_PROJECT_KEY",
+  "fixed_analysis_template": true,
+  "aliases": [],
+  "shared_workspace": "REPLACE_WITH_WORKSPACE_PATH",
+  "destination": {
+    "wiki_token": "REPLACE_WITH_WIKI_TOKEN",
+    "template_sheet_id": "REPLACE_WITH_TEMPLATE_SHEET_ID"
+  },
+  "infer_channel_from_ad": false,
+  "template_dropdowns": false,
+  "dropdowns": {},
+  "freshness_from_ad_date": false,
+  "analysis_enabled": false,
+  "quality": {
+    "GP": {
+      "primary_metric": "首日ROI",
+      "payer_cost_headers": ["单次付费人数费用", "总付费人数成本"],
+      "cpi_header": "CPI",
+      "roi_green": {"首日ROI": null, "3日ROI": null, "7日ROI": null},
+      "payer_cost_green_below": null,
+      "payer_cost_code_below": null,
+      "cpi_green_below": null,
+      "cpi_code_below": null
+    },
+    "IOS": {
+      "primary_metric": "首日ROI",
+      "payer_cost_headers": ["单次付费人数费用", "总付费人数成本"],
+      "cpi_header": "CPI",
+      "roi_green": {"首日ROI": null, "3日ROI": null, "7日ROI": null},
+      "payer_cost_green_below": null,
+      "payer_cost_code_below": null,
+      "cpi_green_below": null,
+      "cpi_code_below": null
+    }
+  },
+  "excellent": {
+    "historical": {
+      "refresh_script": null,
+      "refresh_on": ["weekly", "monthly"],
+      "source_sheet_types": ["weekly", "monthly"],
+      "spreadsheet_token": null,
+      "template_sheet_id": null,
+      "source_year": null,
+      "spend_gt": null,
+      "qualifying_code_colors": ["green", "blue"],
+      "dedupe_fields": ["渠道", "编号"],
+      "keep": "highest_spend",
+      "first_source_month": null,
+      "titles": {"GP": "GP历史优秀", "IOS": "iOS历史优秀"}
+    }
+  }
+}
+
