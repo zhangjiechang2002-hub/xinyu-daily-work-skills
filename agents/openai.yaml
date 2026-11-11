@@ -1,0 +1,5 @@
+interface:
+  display_name: "AF Feishu Weekly Game"
+  short_description: "Build project-specific Feishu AF reports"
+  default_prompt: "Process the attached AppsFlyer exports using this project's validated profile. If the project has no profile, complete project onboarding before any Feishu write."
+
