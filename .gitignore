@@ -1,0 +1,11 @@
+__pycache__/
+*.py[cod]
+*.log
+*_log.json
+.env
+.env.*
+profiles/*.json
+!profiles/*.example.json
+tasks/
+outputs/
+
